@@ -1,0 +1,65 @@
+.map {
+    width: 100%;
+    height: 75vh;
+    background-image: url('/images/site/background/33.jpg');
+  }
+
+.map1 {
+    float: left;
+    width: 50%;
+  }
+    .map1 .map2 h2 {
+    font-size: 20px;
+    line-height: 0px;
+    font:bold;
+    color: darkblue;
+    text-align: center;
+    }
+    .map1 h3 {
+        font-size: 25;
+        font:bold;
+        color: darkgreen;
+        text-align: center;
+    }
+
+    .map3 {
+        width: 100%;
+        height: 450px;
+        border-radius: 3%;
+        border: 2px solid darkblue;
+        display: block;
+        margin: 0 auto;
+        place-items: center;
+    }
+
+    .map4 {
+        height: auto;
+        text-align: center;
+        display: block;
+        margin-top: 80px;
+    }
+    .map4 h4 {
+        font-size: 21px;
+        margin: 7px;
+        font:bolder;
+        color: rgb(255, 255, 255);
+    }
+    .map4 h5 {
+        font-size: 17px;
+        font:bold;
+        margin: 5px;
+        color: darkblue;
+    }
+    .map4 h6 {
+        font-size: 17px;
+        font:bolder;
+        color: darkgreen;
+        margin-top: 0px;
+    }
+
+.footnote {
+    justify-content: center;
+    font: bolder;
+    display: flex;
+    background-color: white;
+}

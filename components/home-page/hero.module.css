@@ -1,0 +1,81 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: cover;
+  background-image: url('/images/site/background/76.jpg');
+}
+
+  .image {
+    width: 360px;
+    height: 360px;
+    box-shadow: 0 1px 8px rgba(181, 187, 206, 0.11);
+    border-radius: 15%;
+    overflow:hidden;
+    margin: 0px;
+    background-color: linear-gradient(-45deg, rgb(255, 255, 255) 5%, rgb(79, 255, 147) 1%, rgb(120, 153, 221) 91%, #ffffff 100%);
+
+  }
+  
+  .image img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero h2 {  
+    font-size: 40px;
+    font: normal;
+    line-height: 165px;
+    margin: 0px;
+    color: rgba(3, 24, 253, 0.986);
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px;
+  }
+
+  .hero h3 {  
+    font-size: 20px;
+    line-height: 0px;
+    font:bold;
+    margin: 0px;
+    color: darkblue;
+    text-align: center;
+    justify-content:space-between;
+  }
+
+  .hero h4 {  
+    font-size: 18px;
+    font:italic;
+    line-height: 25px;
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    text-align: center;
+    color: darkblue;
+  }
+
+  .myhero {
+    font-size: 23px;
+    font-weight: bolder;
+    color: linear-gradient(-45deg, rgb(255, 255, 255) 5%, rgb(79, 255, 147) 1%, rgb(120, 153, 221) 91%, #ffffff 100%);
+    border-radius: 10%;
+    border-color: rgb(255, 255, 255);
+    margin-inline-end: auto;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+  }
+
+  .hero p {
+    font-size: var(--size-6);
+    color: var(--color-grey-100);
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
+  }

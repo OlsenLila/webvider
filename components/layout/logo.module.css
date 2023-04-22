@@ -1,0 +1,32 @@
+.logo {
+    text-transform: initial;
+    font-size: var(--size-4);
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--color-grey-800);
+    text-align: center;
+    display:flex;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .logo {
+      font-size: var(--size-8);
+    }
+    
+  }
+
+  .imagee {
+    border-radius: 15%;
+    alt:"Outsourced Coding";
+    width: 170px;
+    height: 85px
+  }
+  
+  .p {
+    display: block;
+    width: 38px;
+    margin-left: 5px;
+    font: bolder;
+    color: green;
+  }
